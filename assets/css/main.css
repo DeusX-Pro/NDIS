@@ -366,6 +366,25 @@ textarea {
   padding-bottom: 17px;
 }
 
+tab-content p {
+  font-family: var(--tp-ff-p);
+  font-size: 16px;
+  line-height: 1.7;
+  color: #5a5a5a; /* matches body text */
+}
+
+tab-content li {
+  font-family: var(--tp-ff-p);
+  font-size: 16px;
+  line-height: 1.7;
+  color: #5a5a5a;
+}
+
+tab-content ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
 input[type=color] {
   appearance: none;
   -moz-appearance: none;
