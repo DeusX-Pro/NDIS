@@ -1611,6 +1611,9 @@ div.demo img {
 .theme-bg-2 {
   background-color: var(--tp-theme-secondary);
 }
+.theme-bg-3{
+  background-color: var(--tp-red-1);
+}
 
 /*----------------------------------------*/
 /*  2.7 Carousel
@@ -2007,6 +2010,14 @@ div.demo img {
   color: var(--tp-heading-primary);
   margin-right: 5px;
   border: 2px solid var(--tp-heading-primary);
+}
+
+.divider{
+  width:1px;
+  height: 16px;
+  background-color: #ccc;
+  /* margin:0 5px; */
+  display: inline-block;
 }
 .offcanvas__social a:hover {
   background: var(--tp-theme-primary);
@@ -4188,10 +4199,11 @@ body .ui-tooltip {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   display: inline-block;
-  padding: 30px 41px;
 }
+
 .tp-header-btn a:hover {
-  background-color: var(--tp-red-1);
+  background-color: none;
+  
 }
 .tp-header-btn a i {
   font-size: 18px;
@@ -7004,11 +7016,26 @@ blockquote cite::before {
   width: 20px;
   flex: 0 0 auto;
   transform: translateY(4px);
+  
 }
+.tp-footer-widget-content-list-item_email i {
+  color: var(--tp-red-1);
+  margin-right: 17px;
+  width: 20px;
+  flex: 0 0 auto;
+  transform: translateY(4px);
+  
+}
+
 .tp-footer-widget-content-list-item a {
   color: var(--tp-common-white);
   font-size: 16px;
   text-transform: capitalize;
+}
+.tp-footer-widget-content-list-item_email a {
+  color: var(--tp-common-white);
+  font-size: 16px;
+  text-transform: lowercase;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-footer-widget-content-list-item a {
