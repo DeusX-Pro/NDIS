@@ -220,7 +220,7 @@
 				 <div class="tp-theme-settings-open">
 					<button class="tp-theme-settings-open-btn">
 					   <span class="tp-theme-settings-gear">
-						  <i class="fa-light fa-gear"></i>
+						  <i class="fa-solid fa-gear"></i>
 					   </span>
 					   <span class="tp-theme-settings-close">
 						  <i class="fa-regular fa-xmark"></i>
