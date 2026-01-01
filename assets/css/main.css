@@ -11308,6 +11308,7 @@ blockquote cite::before {
 .tp-contact-item {
   margin-bottom: 55px;
 }
+
 @media (max-width: 767px) {
   .tp-contact-item {
     margin-left: 0;
@@ -11315,14 +11316,18 @@ blockquote cite::before {
 }
 .tp-contact-item span {
   color: var(--tp-common-black);
-  font-size: 18px;
+  font-size: 22px;
   display: block;
+  font-weight: 600;
+  font-family:sans-serif;
+  
   margin-bottom: 15px;
+  margin-top: 15px;
 }
 .tp-contact-item a {
-  color: var(--tp-blue-1);
-  font-size: 18px;
-  font-weight: 700;
+  color: var(--tp-common-black);
+  font-size: 16px;
+  
 }
 .tp-contact-social a {
   height: 38px;
